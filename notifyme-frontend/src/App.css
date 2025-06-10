@@ -1,0 +1,39 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.notification-row:hover {
+  background-color: rgba(0, 123, 255, 0.05);
+}
+
+.border-start {
+  border-left-width: 4px !important;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.75em;
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+pre {
+  font-size: 0.875rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.text-truncate {
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
